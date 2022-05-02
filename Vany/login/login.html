@@ -47,12 +47,12 @@
                 </label>
                 <span class="ml-auto"><a href="#" class="forgot-pass">Esqueci-me da Password</a></span> 
               </div>
-
-              <a href=index.html><button>Meu Botão</button></a>
+              <button style="left: 40,5%;" id="button_login" class="round_button" >Login </button>
+             <!-- <a href=index.html><button>Meu Botão</button></a> -->
               <!--<a href="http://127.0.0.1:5501/Vany/public/index.html">
                 <input type="submit" value="Log In" class="btn btn-block btn-primary">
             </a>-->
-
+            
             </form>
           </div>
         </div>
@@ -61,9 +61,13 @@
 
     
   </div>
+  
     
-    
-
+    <script>
+      document.getElementById("button_login").onclick = function () {
+        return location.href = "index.html";
+      }
+    </script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
