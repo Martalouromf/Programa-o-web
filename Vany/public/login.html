@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fontslogin/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="csslogin/owl.carousel.min.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="csslogin/bootstrap.min.css">
     
     <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="csslogin/style.css">
 
     <title>Login #2</title>
   </head>
@@ -22,7 +22,7 @@
   
 
   <div class="d-lg-flex half">
-    <div class="bg order-1 order-md-2" style="background-image: url('images/bg_1.jpg');"></div>
+    <div class="bg order-1 order-md-2" style="background-image: url('imageslogin/bg_1.jpg');"></div>
     <div class="contents order-2 order-md-1">
 
       <div class="container">
@@ -47,12 +47,16 @@
                 </label>
                 <span class="ml-auto"><a href="#" class="forgot-pass">Esqueci-me da Password</a></span> 
               </div>
-              <button style="left: 40,5%;" id="button_login" class="round_button" >Login </button>
+              <!--<button style="left: 40,5%;" id="button_login" class="round_button" >Login </button>-->
              <!-- <a href=index.html><button>Meu Botão</button></a> -->
-              <!--<a href="http://127.0.0.1:5501/Vany/public/index.html">
+              <!-- <a href="index.html">
                 <input type="submit" value="Log In" class="btn btn-block btn-primary">
             </a>-->
-            
+            <form>
+              <a href="http://localhost:5502/Vany/public/index.html">
+                  <input type="button" value="Log In" class="btn btn-block btn-primary">
+              </a>
+          </form>
             </form>
           </div>
         </div>
@@ -62,15 +66,15 @@
     
   </div>
   
-    
+    <!--
     <script>
       document.getElementById("button_login").onclick = function () {
-        return location.href = "index.html";
+        return location.href = "Vany/public/index.html";
       }
-    </script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    </script>-->
+    <script src="jslogin/jquery-3.3.1.min.js"></script>
+    <script src="jslogin/popper.min.js"></script>
+    <script src="jslogin/bootstrap.min.js"></script>
+    <script src="jslogin/main.js"></script>
   </body>
 </html>
