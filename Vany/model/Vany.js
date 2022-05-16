@@ -14,7 +14,7 @@ module.exports.getUsers = async function() {
         return { status: 500, data: err };
     }
 }
-
+/*
 module.exports.getTypes = async function() {
     try {
         let sql = "select * from types";
@@ -110,3 +110,4 @@ function failProduct(prod) {
     }
     return false;
 }
+*/
